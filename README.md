@@ -31,7 +31,6 @@ Flight delay represents a common problem in the air traffic and aviation industr
 <p align="center"><img src="images/feature_engineering.png" width="800"/></p>
 
 ### 3. Model Training & Tuning
-### 4. Model Evaluation
 
 | Model                                   | Train  | Test   | Recall | F1 Score |
 |-----------------------------------------|--------|--------|--------|----------|
@@ -40,8 +39,15 @@ Flight delay represents a common problem in the air traffic and aviation industr
 | Random Forest                           | 0.9859 | 0.8011 | 0.1748 | 0.2195   |
 | AdaBoost                                | 0.7998 | 0.7990 | 0.1381 | 0.2195   |
 
-<p align="center"><img src="images/confusion_matrix.png" width="350"/></p>
-<p align="center"><img src="images/features.png" width="700"/></p>
+
+### 4. Model Evaluation
+
+The best model based on the F1 Score is our Logistic Regression (Balanced Weighted), with a F1 Score of 0.4342.
+
+The top 10 features that affects flight punctuality and delay are as follows: 
+
+<p align="center"><img src="images/features.png" width="900"/></p>
+
 
 ## Recommendations
 
